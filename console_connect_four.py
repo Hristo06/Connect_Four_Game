@@ -108,7 +108,7 @@ def check_for_win(field, row, column):
 
 
 
-player_count = int(input(f"Select number of players(2 players recommended)\n"))
+player_count = int(input(f"Your goal is to connect four numbers diagonally, horizontally and vertically.\nSelect number of players(2 players recommended)\n"))
 field = [[0 for el in range(7)] for b in range(6)]
 print_of_field(field)
 curr_player = 1
